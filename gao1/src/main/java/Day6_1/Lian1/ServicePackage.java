@@ -1,7 +1,23 @@
 package Day6_1.Lian1;
 
-public class ServicePackage {
-    double price ;
+//  套餐父类
+public abstract class ServicePackage {
+   private double price ;    //  套餐流量
 
-    public void showInfo(){}
+    public ServicePackage() {
+    }
+
+    public ServicePackage(double price) {
+        this.price = price;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public  abstract void showInfo();
 }

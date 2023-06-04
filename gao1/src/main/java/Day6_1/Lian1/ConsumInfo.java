@@ -1,10 +1,10 @@
 package Day6_1.Lian1;
-
+ //   消费信息类
 public class ConsumInfo {
    private   int talkTime ;     //通话时间
-   private int smsCount ;
-   private int flow ;
-   private double price ;
+   private int smsCount ;    // 短信条数
+   private int flow ;        // 上网流量
+   private double price ;      // 资费
 
     public ConsumInfo() {
     }
